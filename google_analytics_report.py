@@ -4,7 +4,7 @@
 Created on Mon Jun 14 11:36:12 2021
 
 @author: lmcnutt
-credit for starter code: Tanya Zyabkina @https://github.com/tanyazyabkina/Goog...
+credit for starter code: Tanya Zyabkina
 """
 
 import numpy as np
@@ -98,9 +98,8 @@ def run_report(body, credentials_file):
     return (format_report(response))
 
 
-#your_view_id = '169969220' #sterling
-your_view_id = '185899652'  # Provisur; use same keys
-ga_keys = '/Users/lmcnutt/Desktop/moveo.json'
+your_view_id = '000000000'
+ga_keys = '/Users/lmcnutt/Desktop/key.json'
 
 body = {'reportRequests': [{'viewId': your_view_id,
                             'pageSize': 10000,
